@@ -97,10 +97,6 @@ def bot_help(update, context):
 /{BotCommands.SpeedCommand}: Check Internet Speed of the Host
 
 /tshelp: Get help for torrent search module.
-
-/weebhelp: Get help for anime, manga and character module.
-
-/stickerhelp: Get help for stickers module.
 '''
     sendMessage(help_string, context.bot, update)
 
