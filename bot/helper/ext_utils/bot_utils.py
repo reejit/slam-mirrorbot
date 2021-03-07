@@ -104,7 +104,7 @@ def get_readable_message():
                     msg += f"| P: {download.aria_download().connections} " \
                            f"| S: {download.aria_download().num_seeders}"
                 msg += f"\nGoogleID: <code>{download.gid()}</code>"
-            msg += "\n <i>❌To cancel ❌:</i> reply <code>/cancel</code> to this message."
+            msg += "\n <i>❌To cancel ❌:</i><code>/cancel {download.gid()}</code> "
         return msg
 
 
